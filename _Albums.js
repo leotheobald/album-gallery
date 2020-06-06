@@ -14,7 +14,7 @@ function Albums() {
         const {id, userId, title} = item;
         return (
           <li key={id}>
-            <p>{title} : {userId}</p>
+            <p>Album ID: {id} Title: {title} ID: {userId}</p>
           </li>
         )}
       )}
