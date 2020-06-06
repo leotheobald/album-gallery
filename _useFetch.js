@@ -2,8 +2,8 @@ import React from 'react';
 
 const useFetch = (url, options) => {
 
-  const [items, setItems] = useState([]);
-  const [error, setError] = useState(null);
+  const [items, setItems] = React.useState([]);
+  const [error, setError] = React.useState(null);
 
   React.useEffect(() => {
     const fetchItems = async () => {
